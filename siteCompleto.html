@@ -20,8 +20,8 @@
 <!-- Navbar -->
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Time do Povo</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-light" href="#">Time do Povo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -30,30 +30,34 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link text-light" href="https://www.kickante.com.br/campanhas/timedopovo">Louco Por Ti
+                        <span class="sr-only">(página atual)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Historia
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item text-dark"
+                            href="https://www.meutimao.com.br/titulos-do-corinthians/">Titulos</a>
+                        <a class="dropdown-item text-dark"
+                            href="https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista">Elencos</a>
+                        <div class="dropdown-divider text-dark"></div>
+                        <a class="dropdown-item text-dark"
+                            href="https://www.meutimao.com.br/idolos-do-corinthians/">Jogadores Notáveis</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
+                    <a class="nav-link disabled text-light"
+                        href="https://www.meutimao.com.br/jogadores-do-corinthians/elenco-atual-do-corinthian">Elenco
+                        Atual</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Pesquisar</button>
             </form>
         </div>
     </nav>
@@ -93,8 +97,8 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+            <h1 class="display-4">TIME DO POVO </h1>
+            <p class="lead">Conheça essa iniciativa</p>
         </div>
     </div>
 
@@ -199,7 +203,7 @@
             </div>
             <div class="col-md-6">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/64_kcEbc7jM"
+                <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/64_kcEbc7jM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -207,33 +211,78 @@
             </div>
         </div>
 
+        <!-- Formularios -->
+
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em Contato
+                    </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Endereço de email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="nome@exemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Texto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group d-flex justify-content-end">
+                        <button class="btn btn-outline-dark">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-6">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.643479228152!2d-46.47645628553868!3d-23.545322084690827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66dec98fb855%3A0xf2b061ffbcd2ecf8!2sNeo%20Qu%C3%ADmica%20Arena!5e0!3m2!1spt-BR!2sbr!4v1627296063001!5m2!1spt-BR!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+            </div>
+
+        </div>
+
+        <!-- /Formularios -->
+
+
         <!-- Rodapé -->
         <hr>
         <footer>
 
             <div class="row mb-3">
                 <div class="col-md-12 d-flex justify-content-center">
-                    
-                        <a href="https://github.com/thomazfranca" target="blank" class="p-3">
-                            <img class="tm-social" src="/assets/img/logotipo-do-github.png" alt="logotipo-do-github">
-                        </a>
-                        
-                        <a href="https://www.linkedin.com/in/thomazfranca/" target="blank" class="p-3">
-                            <img class="tm-social" src="/assets/img/logotipo-do-linkedin-square.png"
-                                alt="logotipo-do-linkedin">
-                        </a>
-                    
+
+                    <a href="https://github.com/thomazfranca" target="blank" class="p-3">
+                        <img class="tm-social" src="assets/img/logotipo-do-github.png" alt="logotipo-do-github">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/thomazfranca/" target="blank" class="p-3">
+                        <img class="tm-social" src="assets/img/logotipo-do-linkedin-square.png"
+                            alt="logotipo-do-linkedin">
+                    </a>
+
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-12">
-                    <p = class="text-center">
+                    <p=class="text-center">
                         Desenvolvido por: Thomaz França &copy;
                     </p>
                 </div>
             </div>
-                     
+
         </footer>
         <!--/Rodapé -->
     </div>
